@@ -1,0 +1,45 @@
+/* App Container */
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+/* Heading Style */
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+/* Input Container Style */
+.input-container {
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+textarea {
+  width: 100%;
+  border:#333;
+  outline:auto;
+  resize:both;
+}
+
+/* Word Count Style */
+.word-count {
+  color: #333;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 480px) {
+  .app {
+    padding: 10px;
+  }
+}
+
